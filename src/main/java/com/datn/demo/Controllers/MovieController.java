@@ -27,7 +27,7 @@ public class MovieController {
         List<MovieEntity> movie = movieService.getAllMovies();
         model.addAttribute("movies", movie);
         return "slider_1-main/index"; // Tên file HTML để hiển thị danh sách phim
-        
+//        Khánh dú is soo cool
         
     }
 
